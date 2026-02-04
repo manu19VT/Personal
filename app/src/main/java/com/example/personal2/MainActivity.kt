@@ -35,16 +35,16 @@ fun NombreYControl() {
     ) {
         Text(
             text = "Manuel Antonio Villa Torres",
-            fontSize = 34.sp,           // más grande
+            fontSize = 34.sp,
             fontWeight = FontWeight.Bold,
-            color = Color(0xFF1565C0)   // color (azul)
+            color = Color(0xFF1565C0)
         )
 
         Spacer(modifier = Modifier.height(10.dp))
 
         Text(
             text = "22130838",
-            fontSize = 20.sp,           // más pequeño
+            fontSize = 20.sp,
             color = Color.DarkGray
         )
     }
